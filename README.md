@@ -9,12 +9,17 @@ Tema chiaro:
 ![](screenshot1l.jpeg)
 ![](screenshot2l.jpeg)
 ![](screenshot3l.jpeg)
+![](screenshot4l.jpeg)
+![](screenshot5l.jpeg)
+
 
 Tema scuro:
 
 ![](screenshot1d.jpeg)
 ![](screenshot2d.jpeg)
 ![](screenshot3d.jpeg)
+![](screenshot4d.jpeg)
+![](screenshot5d.jpeg)
 
 
 [L'app usa gli Open Data pubblicati dal Commissario straordinario per l'emergenza Covid-19 - Presidenza del Consiglio dei Ministri](https://github.com/italia/covid19-opendata-vaccini) con licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). Questa nota è presente in ottemperanza ai vincoli imposti da tale licenza.
