@@ -1,5 +1,9 @@
 # Vaccitaly
 
+Ora sul Google Play Store:
+
+https://play.google.com/store/apps/details?id=com.carminezacc.vaccitaly
+
 Semplice app che mostra gli Open Data del governo sulle vaccinazioni attualmente in corso in una maniera che si concentra sui dati che mi sembrano più di interesse rispetto a quelli mostrati nel report ufficiale governativo.
 
 Essendo stata sviluppata frettolosamente nelle sere dei giorni precedenti a quello in cui scrivo da una sola persona senza un chiaro piano per gli sviluppi futuri né l'intenzione effettivamente di pubblicarla, l'app è piena di spaghetti code e code duplication, oltre a non presentare l'UI più gradevole possibile.
