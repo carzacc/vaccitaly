@@ -3,7 +3,7 @@ description: Dati vaccini Italia.
 
 publish_to: 'none'
 
-version: 0.2.0+7
+version: 0.3.0+8
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
