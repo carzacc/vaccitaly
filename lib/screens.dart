@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
                     style: Theme.of(context).textTheme.headline3,
                   ),
                   Text(
-                      "vaccinati (persone che hanno ricevuto entrambe le dosi di vaccino)."),
+                      "vaccinati (persone che hanno ricevuto entrambe le dosi di vaccino o la prima dose di Johnson&Johnson)."),
                   Divider(),
                   Text("Sono state somministrate"),
                   Text("${dati.dosiSomministrate}",

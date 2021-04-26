@@ -128,9 +128,15 @@ Future<VaccinationData> getVaccinationData() async {
 
   // elaborazione dati somministrazioni
   for (var el in somministrazioniMap) {
-    // dati somministrazioni totali e vaccinati (2a dose) per regione
+    // dati somministrazioni totali e vaccinati (2a dose/Janssen) per regione
     datiRegioni[regioni.indexOf(el["area"])].vaccinati += el["seconda_dose"];
+    if (el["fornitore"] == "Janssen") {
+      datiRegioni[regioni.indexOf(el["area"])].vaccinati += el["prima_dose"];
+    }
     vaccinati += el["seconda_dose"];
+    if (el["fornitore"] == "Janssen") {
+      vaccinati += el["prima_dose"];
+    }
     dosi += el["prima_dose"] + el["seconda_dose"];
     // dati somministrazioni giorno per giorno
     int index =
@@ -151,6 +157,9 @@ Future<VaccinationData> getVaccinationData() async {
         el["prima_dose"] + el["seconda_dose"];
     datiGiorni[index].regioni[regioni.indexOf(el["area"])].vaccinati +=
         el["seconda_dose"];
+    if (el["fornitore"] == "Janssen") {
+      datiGiorni[index].vaccinati += el["prima_dose"];
+    }
   }
   datiGiorni.sort((a, b) =>
       DateTime.parse(b.data).millisecondsSinceEpoch -
